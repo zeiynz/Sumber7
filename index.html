@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="assets/img/logo.svg" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>Sumberpitu</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="#" class="nav__logo">
+               SumberPitu
+            </a>
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="#home" class="nav__link active-link">Beranda</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#about" class="nav__link">Profil Desa</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#news" class="nav__link">Berita</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#explore" class="nav__link">Map</a>
+                  </li>
+               </ul>
+
+               <!-- Close button -->
+                <div class="nav__close" id="nav-close">
+                  <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <!-- Toggle button -->
+             <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-menu-line"></i>
+             </div>
+         </nav>
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== home ====================-->
+         <section class="home section" id="home">
+            <img src="assets/img/homebg3.jpg" alt="home image" class="home__bg">
+            <div class="home__shadow"></div>
+
+            <div class="home__container container grid">
+               <div class="home__data">
+                  <h3 class="home__subtitle">
+                     Selamat Datang Di
+                  </h3>
+
+                  <h1 class="home__title">
+                     Desa <br>
+                     Sumberpitu
+                  </h1>
+
+                  <p class="home__description">
+                     Desa indah di kaki pegununggan bromo
+                  </p>
+
+                  <a href="#about" class="button">
+                     Mulai <i class="ri-arrow-right-line"></i>
+                  </a>
+               </div>
+
+               <div class="home__cards grid">
+                  <article class="home__card">
+                     <img src="assets/img/h1.jpg" alt="home image" class="home__card-img">
+                     <h3 class="home__card-title">Sapi Perah</h3>
+                     <div class="home__card-shadow"></div>
+                  </article>
+
+                  <article class="home__card">
+                     <img src="assets/img/h2.jpg" alt="home image" class="home__card-img">
+                     <h3 class="home__card-title">Petani</h3>
+                     <div class="home__card-shadow"></div>
+                  </article>
+
+                  <article class="home__card">
+                     <img src="assets/img/h3.jpg" alt="home image" class="home__card-img">
+                     <h3 class="home__card-title">Petani Kopi</h3>
+                     <div class="home__card-shadow"></div>
+                  </article>
+
+                  <article class="home__card">
+                     <img src="assets/img/h4.jpg" alt="home image" class="home__card-img">
+                     <h3 class="home__card-title">Rute Ke Bromo</h3>
+                     <div class="home__card-shadow"></div>
+                  </article>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== ABOUT ====================-->
+         <section class="about section" id="about">
+            <div class="about__container container grid">
+               <div class="about__data">
+                  <h2 class="section__title">
+                     Profil Desa <br>
+                     Sumberpitu
+                  </h2>
+
+                  <p class="about__description">
+                     Desa Sumberpitu memiliki sejarah panjang yang terkait dengan perjuangan melawan penjajah Belanda dan Jepang. 
+                     Nama "Sumberpitu" berasal dari tujuh mata air bersih yang menjadi sumber kehidupan para pahlawan Indonesia. 
+                     Desa ini juga dikenal sebagai lokasi strategis pada masa perang karena letaknya yang berada di dataran rendah dan pegunungan.
+                  </p>
+
+                  <a href="#" class="button">
+                     Sejarah <i class="ri-arrow-right-fill"></i>
+                  </a>
+               </div>
+
+               <div class="about__image">
+                  <img src="assets/img/about2.jpg" alt="about image" class="about__img">
+                  <div class="about__shadow"></div>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== NEWS ====================-->
+         <section class="news section" id="news">
+            <h2 class="section__title">Berita Terbaru</h2>
+            <p class="section__subtitle">
+                Berita terbaru terkait dengan kegiatan dan aktivitas Desa SumberPitu,
+                dan kegiatan lainnya akan ditampilkan di sini.
+            </p>
+        
+            <!-- News Categories -->
+            <div class="news__categories">
+                <button class="news__category">Politik</button>
+                <button class="news__category">Kesehatan</button>
+                <button class="news__category">Pengumuman</button>
+                <button class="news__category">Kegiatan</button>
+                <button class="news__category">Penyuluhan</button>
+                <button class="news__category">Sarana Prasarana</button>
+            </div>
+        
+            <!-- News Cards -->
+            <div class="news__container">
+                <!-- Card 1 -->
+                <article class="news__card">
+                    <div class="news__image">
+                        <img src="assets/img/news1.jpg" alt="Berita 1">
+                    </div>
+                    <div class="news__content">
+                        <p class="news__meta">Admin, 14 Januari 2025 | 2 hari yang lalu</p>
+                        <h3 class="news__title">Desa sumberpitu gelar pelatihan kewirausahaan</h3>
+                        <div class="news__stats">
+                            <span class="news__rating">★★★★☆ 4.8</span>
+                            <span class="news__comments">💬 20</span>
+                            <span class="news__views">👁️ 415</span>
+                        </div>
+                    </div>
+                </article>
+        
+                <!-- Card 2 -->
+                <article class="news__card">
+                    <div class="news__image">
+                        <img src="assets/img/news2.jpg" alt="Berita 2">
+                    </div>
+                    <div class="news__content">
+                        <p class="news__meta">Admin, 14 Januari 2025 | 2 hari yang lalu</p>
+                        <h3 class="news__title">Pemerintah desa sumberpitu melakukan perbaikan jalan</h3>
+                        <div class="news__stats">
+                            <span class="news__rating">★★★★☆ 4.8</span>
+                            <span class="news__comments">💬 20</span>
+                            <span class="news__views">👁️ 415</span>
+                        </div>
+                    </div>
+                </article>
+        
+                <!-- Card 3 -->
+                <article class="news__card">
+                    <div class="news__image">
+                        <img src="assets/img/news3.jpg" alt="Berita 3">
+                    </div>
+                    <div class="news__content">
+                        <p class="news__meta">Admin, 14 Januari 2025 | 2 hari yang lalu</p>
+                        <h3 class="news__title">Pemerintah desa sumberpitu bangun taman anak-anak</h3>
+                        <div class="news__stats">
+                            <span class="news__rating">★★★★☆ 4.8</span>
+                            <span class="news__comments">💬 20</span>
+                            <span class="news__views">👁️ 415</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+         
+         <!--==================== EXPLORE ====================-->
+         <section class="explore section" id="explore">
+            <div class="explore__container">
+               <div class="explore__image">
+                  <img src="assets/img/bg2.jpg" alt="explore image" class="explore__img">
+                  <div class="explore__shadow"></div>
+               </div>
+
+               <div class="explore__content container grid">
+                  <div class="explore__data">
+                     <h2 class="section__title">
+                        Aspek Geografi<br>
+                        Desa Sumberpitu
+                     </h2>
+
+                     <p class="explore__description">
+                        Wilayah Desa Sumberpitu terletak pada wilayah dataran tinggi dengan ketinggian 600 meter dpl, 
+                        kordinat bujur 7.8359272 dan koordinat lintang 112.7919653 dan dengan luas 548 Hektar, dengan batas-batas wilayah, sebagai berikut:
+                  </div>
+
+                  <div class="explore__user">
+                     <img src="assets/img/logo.svg" alt="explore image" class="explore__perfil">
+                     <span class="explore__name">SumberPitu</span>
+                  </div>
+               </div>
+            </div>
+         </section>
+         
+         <!--==================== JOIN ====================-->
+         <section class="join section">
+            <div class="join__container container grid">
+               <div class="join__data">
+                  <h2 class="section__title">
+                     Stay Updated <br>
+                     With Us
+                  </h2>
+
+                  <p class="join__description">
+                     Dapatkan informasi terbaru dari kami.
+                  </p>
+
+                  <form action="" class="join__form">
+                     <input type="email" placeholder="Email" class="join__input">
+
+                     <button class="join__button button">
+                        Subscribe Our Newsletter <i class="ri-arrow-right-line"></i>
+                     </button>
+                  </form>
+               </div>
+
+               <div class="join__image">
+                  <img src="assets/img/map.png" alt="join image" class="join__img">
+                  <div class="join__shadow"></div>
+               </div>
+            </div>
+         </section>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+         <div class="footer__container container grid">
+            <div class="footer__content grid">
+               <div>
+                  <a href="#" class="footer__logo">S7</a>
+
+                  <p class="footer__description">
+                     Jl. Raya Sumberpitu, Kec. Tutur <br> 
+                     Kab. Pasuruan, Prov. Jawa Timur
+                  </p>
+               </div>
+
+               <div class="footer__data grid">
+                  <div>
+                     <h3 class="footer__title">Kontak</h3>
+
+                     <ul class="footer__links">
+                        <li>
+                           <i class="ri-customer-service-2-line"></i>
+                           <a href="https://wa.link/8o9d8x" target="_blank" class="footer__link">085717143287</a>
+                        </li>
+                        
+                        <li>
+                           <i class="ri-mail-line"></i>
+                           <a href="mailto:baldessumberpitu@gmail.com" class="footer__link">baldessumberpitu@gmail.com</a>
+                        </li>
+
+                        <li>
+                           <i class="ri-time-line"></i>
+                           <a href="#" class="footer__link">Senin - Kamis (08.00 - 14.00)</a>
+                        </li>
+                     </ul>
+                  </div>
+
+                  <div>
+                     <h3 class="footer__title">Profile Desa</h3>
+
+                     <ul class="footer__links">
+                        <li>
+                           <a href="#" class="footer__link">Visi & Misi</a>
+                        </li>
+                        
+                        <li>
+                           <a href="#" class="footer__link">Potensi Desa</a>
+                        </li>
+
+                        <li>
+                           <a href="#" class="footer__link">Layanan Publik</a>
+                        </li>
+                     </ul>
+                  </div>
+
+                  <div>
+                     <h3 class="footer__title">Menu Bantuan</h3>
+
+                     <ul class="footer__links">
+                        <li>
+                           <a href="#" class="footer__link">PPID</a>
+                        </li>
+                        
+                        <li>
+                           <a href="#" class="footer__link">UPT Dinas</a>
+                        </li>
+
+                        <li>
+                           <a href="#" class="footer__link">Informasi Publik</a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+
+            </div>
+               
+            <div class="footer_group">
+               <div class="footer__social">
+                  <a href="https://www.facebook.com/"  target="_blank" class="footer__social-link">
+                     <i class="ri-facebook-line"></i>
+                  </a>
+
+                  <a href="https://www.instagram.com/"  target="_blank" class="footer__social-link">
+                     <i class="ri-instagram-line"></i>
+                  </a>
+
+                  <a href="#"  target="_blank" class="footer__social-link">
+                     <i class="ri-whatsapp-line"></i>
+                  </a>
+                  
+                  <a href="https://www.youtube.com/"  target="_blank" class="footer__social-link">
+                     <i class="ri-youtube-line"></i>
+                  </a>
+               </div>
+
+               <span class="footer__copy">
+                  &#169; Copyright Sumberpitu. All rights reserved
+               </span>
+            </div>
+         </div>
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a class="scrollup" id="croll-up">
+         <i class="ri-arrow-up-line"></i>
+      </a>
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="assets/js/scrollreveal.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+
+      <script>
+         // Prevent right-click
+         // document.addEventListener('contextmenu', event => event.preventDefault());
+ 
+         // Prevent specific key combinations
+         document.addEventListener('keydown', event => {
+             // Disable F12
+             if (event.key === 'F12') {
+                 event.preventDefault();
+                 alert('Inspect is disabled!');
+             }
+ 
+             // Disable Ctrl+Shift+I
+             if (event.ctrlKey && event.shiftKey && event.key === 'I') {
+                 event.preventDefault();
+                 alert('Inspect is disabled!');
+             }
+ 
+             // Disable Ctrl+U
+             if (event.ctrlKey && event.key === 'u') {
+                 event.preventDefault();
+                 alert('View Source is disabled!');
+             }
+         });
+     </script>
+     
+   </body>
+</html>
