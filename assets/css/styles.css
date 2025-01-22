@@ -499,6 +499,7 @@ img {
 
 .explore__image {
   position: absolute;
+  left: 0;
   overflow: hidden;
 }
 
