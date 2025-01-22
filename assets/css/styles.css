@@ -109,6 +109,11 @@ img {
   gap: 1.5rem;
 }
 
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .section {
   padding-block: 5rem 1rem;
 }
